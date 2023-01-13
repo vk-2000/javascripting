@@ -20,3 +20,5 @@ function isArmstrong(num){
 function isPrimeAndArmstrong(n){
     return isPrime(n) && isArmstrong(n);
 }
+
+console.log(isPrimeAndArmstrong(153));
