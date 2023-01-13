@@ -1,11 +1,11 @@
-function isPrime(num) {
+const isPrime = (num) => {
     for(let i = 2, s = Math.sqrt(num); i <= s; i++) {
         if(num % i === 0) return false;
     }
     return num > 1;
 }
 
-function isArmstrong(num){
+const isArmstrong = num => {
     const numberOfDigits = num.toString().length
     let sum = 0;
     let temp = num;
@@ -17,7 +17,7 @@ function isArmstrong(num){
     return sum == num
 }
 
-function isPrimeAndArmstrong(n){
+const isPrimeAndArmstrong = n => {
     return isPrime(n) && isArmstrong(n);
 }
 
