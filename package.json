@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vk-2000/javascripting/issues"
   },
-  "homepage": "https://github.com/vk-2000/javascripting#readme"
+  "homepage": "https://github.com/vk-2000/javascripting#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
 }
