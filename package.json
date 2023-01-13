@@ -1,0 +1,19 @@
+{
+  "name": "javascripting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "introduction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vk-2000/javascripting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vk-2000/javascripting/issues"
+  },
+  "homepage": "https://github.com/vk-2000/javascripting#readme"
+}
